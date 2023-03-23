@@ -1,0 +1,24 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new 
+Content-Type: application/json
+
+{
+"text": "rap篮球!"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/641967705d0d111e509b34ed
+
+
+###
+PUT http://localhost:3001/todo/update/641aa6d23d3a1919dd814c0d 
+
+Content-Type: application/json
+
+{
+"text": "Go Shopping for Milk"
+}
